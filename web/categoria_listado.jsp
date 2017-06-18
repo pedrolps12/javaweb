@@ -51,6 +51,7 @@
 
                             <a class="btn btn-primary btn-sm" href="Categorias?action=agregar"><i style="margin-right:10px;" class="fa fa-plus"></i> Agregar Categoria</a>
                             
+                            
                             <div class="table-responsive">
                                 <table class="table table-striped table-bordered">
                                     <thead>
