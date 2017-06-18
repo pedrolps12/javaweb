@@ -1,0 +1,51 @@
+ <%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    <nav class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Pedro Lucky</strong>
+                             </span> <span class="text-muted text-xs block">Administrador <b class="caret"></b></span> </span> </a>
+                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                    </div>
+                    <div class="logo-element">
+                        IN+
+                    </div>
+                </li>
+                <hr style="margin:0;padding:0px;">
+                <li prop1="/" >
+                    <a href="/ProyectoCibertec"><i class="fa fa-home"></i> <span class="nav-label">Inicio</span> </a>
+                </li>
+                <li prop1="Clientes">
+                    <a  href="Clientes?action=listCustomer"><i class="fa fa-user-circle"></i> <span class="nav-label">Clientes</span></a>
+                </li>   
+                <li prop1="catprod">
+                    <a href="#"><i class="fa fa fa-cube"></i> <span class="nav-label">Productos</span> <span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse" style="height: 0px;">
+                        <li prop1="Categorias"><a href="Categorias?action=listCategories">Listado Categorías</a></li>
+                        <li prop1="Productos"><a href="Productos?action=listProducts">Listado Productos</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-truck"></i> <span class="nav-label">Proveedores</span> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-area-chart"></i> <span class="nav-label">Ventas</span> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-wrench"></i> <span class="nav-label">Configuraciones</span> </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+<script>
+    
+    
+</script>
