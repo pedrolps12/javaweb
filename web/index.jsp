@@ -156,6 +156,8 @@
 <script src="js/plugins/pace/pace.min.js"></script>
 
 <script>
+  
+  //https://es.stackoverflow.com/questions/21347/duda-sobre-guardar-una-imagen-en-base-de-datos
             var data3 = [
                 [gd(2017, 6, 1), 12], [gd(2017, 6, 2), 15], [gd(2017, 6, 3), 25], [gd(2017, 6, 4), 10],
                 [gd(2017, 6, 5), 7], [gd(2017, 6, 6), 13], [gd(2017, 6, 7), 15], [gd(2017, 6, 8), 19],
